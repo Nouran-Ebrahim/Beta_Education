@@ -688,7 +688,26 @@ header
 banner
 --------------------------------------------- 
 */
-
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400";
+/* colors */
+/* tab setting */
+/* breakpoints */
+/* selectors relative to radio inputs */
+.dir{
+  position: absolute;
+    display: flex;
+    flex-direction: row;
+    min-width: 0;
+    background-color:transparent;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    justify-content: space-around;
+    width: 100%;
+}
+#thawy-content{
+  display: none;
+}
 .main-banner {
   position: relative;
   max-height: 100%;
