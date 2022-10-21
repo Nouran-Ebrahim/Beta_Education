@@ -1,2 +1,2 @@
-# Beta_Education
+# Beta Education
 Educational Website
