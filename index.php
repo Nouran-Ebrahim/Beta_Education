@@ -56,8 +56,9 @@ https://templatemo.com/tm-569-edu-meeting
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                            <li><a href="meetings.html">Levels</a></li>
+                            <li class="scroll-to-section"><a href="#top" class="active" >Home</a></li>
+                            <li class="scroll-to-section"><a href="#levels" id="level">Levels</a></li>
+                            <li class="scroll-to-section"><a href="#courses" id="skill" >Skills</a></li>
                             <li class="scroll-to-section"><a href="#apply">Join Us</a></li>
                             <!--<li class="has-sub">
                               <a href="javascript:void(0)">Pages</a>
@@ -66,7 +67,7 @@ https://templatemo.com/tm-569-edu-meeting
                                   <li><a href="meeting-details.html">Meeting Details</a></li>
                               </ul>
                           </li>-->
-                            <li class="scroll-to-section"><a href="#courses">About</a></li>
+                            <li class="scroll-to-section"><a href="#">About</a></li>
                             <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
                         </ul>
                         <a class='menu-trigger'>
@@ -108,15 +109,15 @@ https://templatemo.com/tm-569-edu-meeting
         </div>
     </section>
     <!-- ***** Main Banner Area End ***** -->
-    <section class="services">
+    <section class="services" id="levels">
         <div class="container">
             <ul class="nav nav-tabs">
 
                 <li class="nav-item">
-                    <a style="color:white" id="prep" class="nav-link">الاعداديه</a>
+                    <a style="color:white" id="prep" class="nav-link">Preparatory Stage</a>
                 </li>
-                <li class="nav-item">
-                    <a style="color:white" id="thanwy" class="nav-link">ثانوي</a>
+                <li class="nav-item" id="active-thanwy">
+                    <a style="color:white" id="thanwy" class="nav-link">Secondary Stage</a>
                 </li>
 
             </ul>
@@ -124,81 +125,78 @@ https://templatemo.com/tm-569-edu-meeting
         <div class="row">
             <div class="col-lg-12">
                 <div class="dir" id="prep-content">
-                    
-                        <div class="card item" style="width: 18rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">اولي اعدادي</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the
-                                    card's
-                                    content.</p>
-                                <a href="#" class="card-link">Card link</a>
-                                <a href="#" class="card-link">Another link</a>
-                            </div>
-                        </div>
-                    
+
                     <div class="card item" style="width: 18rem;">
                         <div class="card-body">
-                            <h5 class="card-title">تانيه اعدادي</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <h5 class="card-title">1st Grad</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of the
+                                card's
+                                content.</p>
+                            <a href="courses.html" class="card-link"><button type="button"
+                                    class="btn btn-outline-primary view">View</button></a>
+                        </div>
+                    </div>
+
+                    <div class="card item" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">2nd Grad</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the
                                 card's
                                 content.</p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+                                <a href="courses.html" class="card-link"><button type="button"
+                                    class="btn btn-outline-primary view">View</button></a>
                         </div>
                     </div>
                     <div class="card item" style="width: 18rem;">
                         <div class="card-body">
-                            <h5 class="card-title">تالت اعدادي</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <h5 class="card-title">3rd Grad</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the
                                 card's
                                 content.</p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+                                <a href="courses.html" class="card-link"><button type="button"
+                                    class="btn btn-outline-primary view">View</button></a>
                         </div>
                     </div>
                 </div>
                 <div class="dir" id="thawy-content">
+
                     <div class="card item" style="width: 18rem;">
                         <div class="card-body">
-                            <h5 class="card-title">اولي ثانوي</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <h5 class="card-title">1st Grad</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of the
+                                card's
+                                content.</p>
+                                <a href="courses.html" class="card-link"><button type="button"
+                                    class="btn btn-outline-primary view">View</button></a>
+                        </div>
+                    </div>
+
+                    <div class="card item" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">2nd Gradd</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the
                                 card's
                                 content.</p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+                                <a href="courses.html" class="card-link"><button type="button"
+                                    class="btn btn-outline-primary view">View</button></a>
                         </div>
                     </div>
                     <div class="card item" style="width: 18rem;">
                         <div class="card-body">
-                            <h5 class="card-title">تانيه ثانوي</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <h5 class="card-title">3rd Grad</h5>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk
                                 of the
                                 card's
                                 content.</p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
-                        </div>
-                    </div>
-                    <div class="card item" style="width: 18rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">تالت اعدادي</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card's
-                                content.</p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+                                <a href="courses.html" class="card-link"><button type="button"
+                                    class="btn btn-outline-primary view">View</button></a>
                         </div>
                     </div>
                 </div>
@@ -210,10 +208,10 @@ https://templatemo.com/tm-569-edu-meeting
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading">
-                        <h2>Upcoming Meetings</h2>
+                        <h2>Why Us</h2>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <!-- <div class="col-lg-4">
                     <div class="categories">
                         <h4>Meeting Catgories</h4>
                         <ul>
@@ -227,8 +225,8 @@ https://templatemo.com/tm-569-edu-meeting
                             <a href="meetings.html">All Upcoming Meetings</a>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-8">
+                </div> -->
+                <!-- <div class="col-lg-8">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="meeting-item">
@@ -311,7 +309,7 @@ https://templatemo.com/tm-569-edu-meeting
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -319,11 +317,16 @@ https://templatemo.com/tm-569-edu-meeting
     <section class="apply-now" id="apply">
         <div class="container">
             <div class="row">
+            <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2>Towards Continuity</h2>
+                    </div>
+                </div>
                 <div class="col-lg-6 align-self-center">
                     <div class="row">
-                        <div class="col-lg-12">
+                        <!-- <div class="col-lg-12">
                             <div class="item">
-                                <h3>APPLY FOR BACHELOR DEGREE</h3>
+                                <h3></h3>
                                 <p>You are allowed to use this edu meeting CSS template for your school or
                                     university or business. You can feel free to modify or edit this layout.
                                 </p>
@@ -331,8 +334,8 @@ https://templatemo.com/tm-569-edu-meeting
                                     <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-12">
+                        </div> -->
+                        <!-- <div class="col-lg-12">
                             <div class="item">
                                 <h3>APPLY FOR BACHELOR DEGREE</h3>
                                 <p>You are not allowed to redistribute the template ZIP file on any other
@@ -341,10 +344,10 @@ https://templatemo.com/tm-569-edu-meeting
                                     <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <!-- <div class="col-lg-6">
                     <div class="accordions is-first-expanded">
                         <article class="accordion">
                             <div class="accordion-head">
@@ -427,7 +430,7 @@ https://templatemo.com/tm-569-edu-meeting
                             </div>
                         </article>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -437,7 +440,7 @@ https://templatemo.com/tm-569-edu-meeting
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading">
-                        <h2>Our Popular Courses</h2>
+                        <h2>Skills Courses</h2>
                     </div>
                 </div>
                 <div class="col-lg-12">
@@ -715,8 +718,8 @@ https://templatemo.com/tm-569-edu-meeting
                 <div class="col-lg-6">
                     <div class="row">
                         <div class="col-lg-12">
-                            <h2>A Few Facts About Our University</h2>
-                        </div>
+                            <h2>Teachers</h2>
+                        <!-- </div>
                         <div class="col-lg-6">
                             <div class="row">
                                 <div class="col-12">
@@ -748,15 +751,15 @@ https://templatemo.com/tm-569-edu-meeting
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
-                <div class="col-lg-6 align-self-center">
+                <!-- <div class="col-lg-6 align-self-center">
                     <div class="video">
                         <a href="https://www.youtube.com/watch?v=HndV87XpkWg" target="_blank"><img
                                 src="assets/images/play-icon.png" alt=""></a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -767,7 +770,7 @@ https://templatemo.com/tm-569-edu-meeting
                 <div class="col-lg-9 align-self-center">
                     <div class="row">
                         <div class="col-lg-12">
-                            <form id="contact" action="sendmassege.php" method="post">
+                            <form id="contact" action="mailto:nouran.ssp@gmail.com" method="post">
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <h2>Let's get in touch</h2>
@@ -812,19 +815,19 @@ https://templatemo.com/tm-569-edu-meeting
                         <ul>
                             <li>
                                 <h6>Phone Number</h6>
-                                <span>010-020-0340</span>
+                                <span>000000000</span>
                             </li>
                             <li>
                                 <h6>Email Address</h6>
-                                <span>info@meeting.edu</span>
+                                <span>nnnnnnn</span>
                             </li>
                             <li>
                                 <h6>Street Address</h6>
-                                <span>Rio de Janeiro - RJ, 22795-008, Brazil</span>
+                                <span>center adress</span>
                             </li>
                             <li>
                                 <h6>Website URL</h6>
-                                <span>www.meeting.edu</span>
+                                <span>hvhjvg</span>
                             </li>
                         </ul>
                     </div>
@@ -832,8 +835,8 @@ https://templatemo.com/tm-569-edu-meeting
             </div>
         </div>
         <div class="footer">
-            <p>Copyright © 2022 Edu Meeting Co., Ltd. All Rights Reserved.
-                <br>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a>
+            <p>Copyright © 2022 beta education Co., Ltd. All Rights Reserved.
+                <br>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">soul</a>
             </p>
         </div>
     </section>

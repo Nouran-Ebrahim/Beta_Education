@@ -693,6 +693,26 @@ banner
 /* tab setting */
 /* breakpoints */
 /* selectors relative to radio inputs */
+.active-tab{
+  background-color: #3CF !important;
+}
+.view{
+  border-color: #eee !important;
+  color: #eee;
+  margin-top: 6%;
+
+}
+.view:hover{
+  background-color: rgba(250,250,250,0.15) !important;
+  border-color: #eee;
+}
+.view:focus{
+  border-color: #f5a425;
+}
+.container ul a{
+  font-size: 20px !important;
+  font-weight: bold;
+}
 .dir{
   position: absolute;
     display: flex;
