@@ -56,9 +56,9 @@ https://templatemo.com/tm-569-edu-meeting
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="#top" class="active" >Home</a></li>
+                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
                             <li class="scroll-to-section"><a href="#levels" id="level">Levels</a></li>
-                            <li class="scroll-to-section"><a href="#courses" id="skill" >Skills</a></li>
+                            <li class="scroll-to-section"><a href="#courses" id="skill">Skills</a></li>
                             <li class="scroll-to-section"><a href="#apply">Join Us</a></li>
                             <!--<li class="has-sub">
                               <a href="javascript:void(0)">Pages</a>
@@ -146,7 +146,7 @@ https://templatemo.com/tm-569-edu-meeting
                                 of the
                                 card's
                                 content.</p>
-                                <a href="courses.html" class="card-link"><button type="button"
+                            <a href="courses.html" class="card-link"><button type="button"
                                     class="btn btn-outline-primary view">View</button></a>
                         </div>
                     </div>
@@ -157,7 +157,7 @@ https://templatemo.com/tm-569-edu-meeting
                                 of the
                                 card's
                                 content.</p>
-                                <a href="courses.html" class="card-link"><button type="button"
+                            <a href="courses.html" class="card-link"><button type="button"
                                     class="btn btn-outline-primary view">View</button></a>
                         </div>
                     </div>
@@ -172,7 +172,7 @@ https://templatemo.com/tm-569-edu-meeting
                                 of the
                                 card's
                                 content.</p>
-                                <a href="courses.html" class="card-link"><button type="button"
+                            <a href="courses.html" class="card-link"><button type="button"
                                     class="btn btn-outline-primary view">View</button></a>
                         </div>
                     </div>
@@ -184,7 +184,7 @@ https://templatemo.com/tm-569-edu-meeting
                                 of the
                                 card's
                                 content.</p>
-                                <a href="courses.html" class="card-link"><button type="button"
+                            <a href="courses.html" class="card-link"><button type="button"
                                     class="btn btn-outline-primary view">View</button></a>
                         </div>
                     </div>
@@ -195,7 +195,7 @@ https://templatemo.com/tm-569-edu-meeting
                                 of the
                                 card's
                                 content.</p>
-                                <a href="courses.html" class="card-link"><button type="button"
+                            <a href="courses.html" class="card-link"><button type="button"
                                     class="btn btn-outline-primary view">View</button></a>
                         </div>
                     </div>
@@ -317,7 +317,7 @@ https://templatemo.com/tm-569-edu-meeting
     <section class="apply-now" id="apply">
         <div class="container">
             <div class="row">
-            <div class="col-lg-12">
+                <div class="col-lg-12">
                     <div class="section-heading">
                         <h2>Towards Continuity</h2>
                     </div>
@@ -715,12 +715,53 @@ https://templatemo.com/tm-569-edu-meeting
     <section class="our-facts">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div>
                     <div class="row">
                         <div class="col-lg-12">
                             <h2>Teachers</h2>
-                        <!-- </div>
-                        <div class="col-lg-6">
+                        </div>
+                        <div>
+                            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+                                <div class="carousel-inner d-flex-col justify-content-center align-items-center">
+                                    <div class="carousel-item active   d-flex-col justify-content-center align-items-center w-100"
+                                        data-bs-interval="10000" style="background-color:tomato; ">
+                                        <div class="col-lg-12 justify-self-center align-self-center ">
+                                            <img src="assets/images/customer-img.jpg" class="w-25" alt="...">
+                                        </div>
+                                        <div class=" ">
+                                            <h5>First slide label</h5>
+                                            <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Second slide label</h5>
+                                            <p>Some representative placeholder content for the second slide.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="..." class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Third slide label</h5>
+                                            <p>Some representative placeholder content for the third slide.</p>
+                                        </div>
+                                    </div> -->
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- <div class="col-lg-6">
                             <div class="row">
                                 <div class="col-12">
                                     <div class="count-area-content percentage">
@@ -754,12 +795,6 @@ https://templatemo.com/tm-569-edu-meeting
                         </div> -->
                     </div>
                 </div>
-                <!-- <div class="col-lg-6 align-self-center">
-                    <div class="video">
-                        <a href="https://www.youtube.com/watch?v=HndV87XpkWg" target="_blank"><img
-                                src="assets/images/play-icon.png" alt=""></a>
-                    </div>
-                </div> -->
             </div>
         </div>
     </section>
