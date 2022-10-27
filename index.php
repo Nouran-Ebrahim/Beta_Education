@@ -59,7 +59,7 @@ https://templatemo.com/tm-569-edu-meeting
                             <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
                             <li class="scroll-to-section"><a href="#levels" id="level">Levels</a></li>
                             <li class="scroll-to-section"><a href="#courses" id="skill">Skills</a></li>
-                            <li class="scroll-to-section"><a href="#apply">Join Us</a></li>
+                            <li><a href="joinus.php">Join Us</a></li>
                             <!--<li class="has-sub">
                               <a href="javascript:void(0)">Pages</a>
                               <ul class="sub-menu">
@@ -67,7 +67,7 @@ https://templatemo.com/tm-569-edu-meeting
                                   <li><a href="meeting-details.html">Meeting Details</a></li>
                               </ul>
                           </li>-->
-                            <li class="scroll-to-section"><a href="#">About</a></li>
+                            <li><a href="about.php">About</a></li>
                             <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
                         </ul>
                         <a class='menu-trigger'>
@@ -721,33 +721,36 @@ https://templatemo.com/tm-569-edu-meeting
                             <h2>Teachers</h2>
                         </div>
                         <div>
-                            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div id="carouselExampleDark" style=" " class="d-flex-col justify-content-center align-items-center w-100 carousel carousel-dark slide techer" data-bs-ride="carousel">
 
-                                <div class="carousel-inner d-flex-col justify-content-center align-items-center">
-                                    <div class="carousel-item active   d-flex-col justify-content-center align-items-center w-100"
-                                        data-bs-interval="10000" style="background-color:tomato; ">
-                                        <div class="col-lg-12 justify-self-center align-self-center ">
+                                <div class="carousel-inner d-flex-col justify-content-center align-items-center w-100" style="background-color:white;border-radius: 50px 10px;;border: 3px solid #a12c2f;padding: 34px 65px 45px 65px;">
+                                    <div class="carousel-item active w-100" data-bs-interval="10000" >
+                                        <div class="pic" >
                                             <img src="assets/images/customer-img.jpg" class="w-25" alt="...">
                                         </div>
-                                        <div class=" ">
-                                            <h5>First slide label</h5>
+                                        <div class="" style="text-align:center">
+                                            <h5 style="padding-bottom: 1%;">First slide label</h5>
                                             <p>Some representative placeholder content for the first slide.</p>
                                         </div>
                                     </div>
-                                    <!-- <div class="carousel-item" data-bs-interval="2000">
-                                        <img src="..." class="d-block w-100" alt="...">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5>Second slide label</h5>
-                                            <p>Some representative placeholder content for the second slide.</p>
+                                    <div class="carousel-item  w-100" data-bs-interval="10000" >
+                                        <div class="pic" >
+                                            <img src="assets/images/customer-img.jpg" class="w-25" alt="...">
+                                        </div>
+                                        <div class="" style="text-align:center">
+                                            <h5 style="padding-bottom: 1%;">First slide label2</h5>
+                                            <p>Some representative placeholder content for the first slide.</p>
                                         </div>
                                     </div>
-                                    <div class="carousel-item">
-                                        <img src="..." class="d-block w-100" alt="...">
-                                        <div class="carousel-caption d-none d-md-block">
-                                            <h5>Third slide label</h5>
-                                            <p>Some representative placeholder content for the third slide.</p>
+                                    <div class="carousel-item  w-100" data-bs-interval="10000">
+                                        <div class="" style="text-align:center;padding-bottom: 1%;">
+                                            <img src="assets/images/customer-img.jpg" class="w-25" alt="...">
                                         </div>
-                                    </div> -->
+                                        <div class="" style="text-align:center">
+                                            <h5 style="padding-bottom: 1%;">First slide label3</h5>
+                                            <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button"
                                     data-bs-target="#carouselExampleDark" data-bs-slide="prev">

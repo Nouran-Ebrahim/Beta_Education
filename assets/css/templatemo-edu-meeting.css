@@ -1875,3 +1875,15 @@ responsive
   }
 
 }
+/* techers */
+.pic{
+text-align: center !important;
+padding-bottom: 1% !important;
+}
+.techer{
+  background-color: #191a20 !important;
+}
+.border{
+  border: 1px solid black;
+	padding: 34px 65px 45px 65px;
+}
