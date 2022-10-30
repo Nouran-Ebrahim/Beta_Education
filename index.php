@@ -717,28 +717,21 @@ https://templatemo.com/tm-569-edu-meeting
             <div class="row">
                 <div>
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div>
                             <h2>Teachers</h2>
                         </div>
-                        <div>
-                            <div id="carouselExampleDark" style=" " class="d-flex-col justify-content-center align-items-center w-100 carousel carousel-dark slide techer" data-bs-ride="carousel">
+                        <div class="techer-container">
+                            <div id="carouselExampleDark"
+                                class="d-flex-col aling-text-center justify-content-center align-items-center w-75 carousel carousel-dark slide"
+                                data-bs-ride="carousel">
 
-                                <div class="carousel-inner d-flex-col justify-content-center align-items-center w-100" style="background-color:white;border-radius: 50px 10px;;border: 3px solid #a12c2f;padding: 34px 65px 45px 65px;">
-                                    <div class="carousel-item active w-100" data-bs-interval="10000" >
-                                        <div class="pic" >
+                                <div class="carousel-inner d-flex-col justify-content-center align-items-center w-100 techer">
+                                    <div class="carousel-item active w-100" data-bs-interval="10000">
+                                        <div class="pic">
                                             <img src="assets/images/customer-img.jpg" class="w-25" alt="...">
                                         </div>
-                                        <div class="" style="text-align:center">
-                                            <h5 style="padding-bottom: 1%;">First slide label</h5>
-                                            <p>Some representative placeholder content for the first slide.</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item  w-100" data-bs-interval="10000" >
-                                        <div class="pic" >
-                                            <img src="assets/images/customer-img.jpg" class="w-25" alt="...">
-                                        </div>
-                                        <div class="" style="text-align:center">
-                                            <h5 style="padding-bottom: 1%;">First slide label2</h5>
+                                        <div class="label">
+                                            <h5 >First slide label</h5>
                                             <p>Some representative placeholder content for the first slide.</p>
                                         </div>
                                     </div>
@@ -746,8 +739,17 @@ https://templatemo.com/tm-569-edu-meeting
                                         <div class="pic">
                                             <img src="assets/images/customer-img.jpg" class="w-25" alt="...">
                                         </div>
-                                        <div class="" style="text-align:center">
-                                            <h5 style="padding-bottom: 1%;">First slide label3</h5>
+                                        <div class="label" >
+                                            <h5 >First slide label2</h5>
+                                            <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item  w-100" data-bs-interval="10000">
+                                        <div class="pic">
+                                            <img src="assets/images/customer-img.jpg" class="w-25" alt="...">
+                                        </div>
+                                        <div class="label" >
+                                            <h5>First slide label3</h5>
                                             <p>Some representative placeholder content for the first slide.</p>
                                         </div>
                                     </div>
