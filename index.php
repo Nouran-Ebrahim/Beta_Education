@@ -743,7 +743,7 @@ https://templatemo.com/tm-569-edu-meeting
                                         </div>
                                     </div>
                                     <div class="carousel-item  w-100" data-bs-interval="10000">
-                                        <div class="" style="text-align:center;padding-bottom: 1%;">
+                                        <div class="pic">
                                             <img src="assets/images/customer-img.jpg" class="w-25" alt="...">
                                         </div>
                                         <div class="" style="text-align:center">
