@@ -26,23 +26,26 @@
 
                 <input type="text" placeholder="City" class="input" />
                 <input type="text" placeholder="School" class="input" />
+                <div class="grad">
+                    <label for="cars">Your Grad:</label>
+                    <select name="Grad" id="Grade">
+                        <option value="1st prep">1st Preparatory</option>
+                        <option value="2nd prep">2nd Preparatory</option>
+                        <option value="3rd prep">3rd Preparatory</option>
+                        <option value="1st prep">1st Secondary</option>
+                        <option value="2nd prep">2nd Secondary</option>
+                        <option value="3rd prep">3rd Secondary</option>
 
-                <label for="cars">Your Grad:</label>
-                <select name="Grad" id="Grade">
-                    <option value="1st prep">1st Preparatory</option>
-                    <option value="2nd prep">2nd Preparatory</option>
-                    <option value="3rd prep">3rd Preparatory</option>
-					<option value="1st prep">1st Secondary</option>
-                    <option value="2nd prep">2nd Secondary</option>
-                    <option value="3rd prep">3rd Secondary</option>
-
-                </select>
-                <input type="radio" class="input" value="English" />
-                <lable>English</lable>
-
-                <input type="radio"  class="input" value="Arabic" />
-                <lable>Arabic</lable>
-
+                    </select>
+                </div>
+                <div class="grad">
+                    <input type="radio" class="input" value="English" />
+                    <lable>English</lable>
+                </div>
+                <div class="grad">
+                    <input type="radio" class="input" value="Arabic" />
+                    <lable>Arabic</lable>
+                </div>
                 <button class="btn">Sign Up</button>
             </form>
         </div>
