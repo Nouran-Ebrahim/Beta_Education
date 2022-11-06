@@ -1,0 +1,37 @@
+body{
+    background-image: url(../images/meetings-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.reg{
+    margin: auto;
+    width: 50%;
+    margin-top: 10%;
+}
+.reg label{
+    color:white;
+    font-size: 20px;
+
+}
+.reg button  {
+    background-color:#a12c2f ;
+    text-align: center !important;
+    border-color: white;
+}
+.reg button:hover{
+    background-color:transparent;
+    border-color: white;
+}
+.reg a  {
+    color: white;
+}
+.reg a:hover  {
+    color: #a12c2f;
+}
+.center{
+    width: 100%;
+    text-align: center;
+}
