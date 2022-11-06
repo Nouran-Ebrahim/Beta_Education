@@ -1,37 +1,64 @@
-body{
+body {
     background-image: url(../images/meetings-bg.jpg);
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
-.reg{
+
+.reg {
     margin: auto;
     width: 50%;
     margin-top: 10%;
+    background: #F0F2F0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8991af, #f4cbd9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8991af, #f4cbd9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 3px #7c7675;
 }
-.reg label{
-    color:white;
+
+.reg form {
+    margin: auto;
+    width: 70%;
+}
+
+.reg label {
+    color: #44484b;
+    font-weight: 500;
     font-size: 20px;
 
 }
-.reg button  {
-    background-color:#a12c2f ;
+
+.reg button {
+    background-color: #a12c2f;
     text-align: center !important;
     border-color: white;
+    margin-bottom: 2%;
+    font-weight: 500;
 }
-.reg button:hover{
-    background-color:transparent;
+
+.reg button:hover {
+    background-color: transparent;
     border-color: white;
+    color: #44484b;
 }
-.reg a  {
+
+.reg a {
     color: white;
+    width: 100%;
+    padding-bottom: 2%;
 }
-.reg a:hover  {
+
+.reg a:hover {
     color: #a12c2f;
 }
-.center{
+
+.center {
     width: 100%;
     text-align: center;
+
 }

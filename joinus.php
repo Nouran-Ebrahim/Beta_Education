@@ -18,7 +18,7 @@
     <form >
         <div class="form-col">
             <div class="form-group w-100">
-                <label for="inputEmail4">Email</label>
+                <label for="inputEmail4" style="margin-top: 2%;">Email</label>
                 <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
             </div>
             <div class="form-col">
@@ -37,7 +37,7 @@
 			</div>
 			<div class="form-group">
                 <div class="center">
-					<br>
+					
 				<a href="register.php">Create New Accounte</a>
                 </div>
             </div>
