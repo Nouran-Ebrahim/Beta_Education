@@ -25,7 +25,11 @@
 </head>
 
 <body>
-    <div>
+    <div class="reg">
+    <div class="back">
+        <a href="index.php"><i class="bi bi-arrow-left-circle-fill"></i></a>
+        <p>Sign UP</p>
+        </div>
         <form>
             <div class="form-row">
                 <div class="form-group col-md-6">
@@ -37,40 +41,80 @@
                     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Full Name">
                 </div>
             </div>
-            <div class="form-group">
-                <label for="inputAddress">Address</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-            </div>
-            <div class="form-group">
-                <label for="inputAddress2">Address 2</label>
-                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-            </div>
+
             <div class="form-row">
                 <div class="form-group col-md-6">
-                    <label for="inputCity">City</label>
-                    <input type="text" class="form-control" id="inputCity">
+                    <label for="formGroupExampleInput">Mobile</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Mobile">
                 </div>
-                <div class="form-group col-md-4">
-                    <label for="inputState">State</label>
-                    <select id="inputState" class="form-control">
-                        <option selected>Choose...</option>
-                        <option>...</option>
+                <div class="form-group col-md-6">
+                    <label for="formGroupExampleInput">Perent Mobile</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Perent Mobile">
+                </div>
+            </div>
+
+            <div class="form-row ">
+                <div class="form-group col-md-6">
+                    <label for="formGroupExampleInput">Phone</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Phone">
+                </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                            value="option1">
+                        <label class="form-check-label d-inline-block" for="exampleRadios2">
+                            Male
+                        </label>
+                        <input class="form-check-input " type="radio" name="exampleRadios" id="exampleRadios3"
+                            value="option2">
+                        <label class="form-check-label d-inline-block" for="exampleRadios2">
+                            Female
+                        </label>
+                    </div>
+                
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="formGroupExampleInput">City</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="City">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="formGroupExampleInput">School</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="School Name">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Your Grade</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>1st Preparatory  </option>
+                        <option>2nd Preparatory </option>
+                        <option>3th Preparatory </option>
+                        <option>1st Secoundary  </option>
+                        <option>2nd Secoundary </option>
+                        <option>3th Secoundary </option>
                     </select>
                 </div>
-                <div class="form-group col-md-2">
-                    <label for="inputZip">Zip</label>
-                    <input type="text" class="form-control" id="inputZip">
+                <div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                            value="option4">
+                        <label class="form-check-label" for="exampleRadios2">
+                           Experimental School
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
+                            value="option5">
+                        <label class="form-check-label" for="exampleRadios2">
+                            Languege School
+                        </label>
+                    </div>
                 </div>
             </div>
-            <div class="form-group">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                        Check me out
-                    </label>
-                </div>
-            </div>
-            <button type="submit" class="btn btn-primary">Sign in</button>
+<div class="center">
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+</div>
         </form>
     </div>
 </body>
