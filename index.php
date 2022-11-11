@@ -50,15 +50,17 @@ https://templatemo.com/tm-569-edu-meeting
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
+
                         <a href="index.php" class="logo">
-                            Beta Education
+                        <!-- <img src="assets/images/logo.png">  -->
+                          Beta<br> Education
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                            <li class="scroll-to-section"><a href="#levels" id="level">Levels</a></li>
-                            <li class="scroll-to-section"><a href="#courses" id="skill">Skills</a></li>
+                            <li ><a href="#top" class="active">Home</a></li>
+                            <li ><a href="#levels" id="level">Levels</a></li>
+                            <li ><a href="#courses" id="skill">Skills</a></li>
                             <li><a href="joinus.php">Join Us</a></li>
                             <!--<li class="has-sub">
                               <a href="javascript:void(0)">Pages</a>
@@ -68,7 +70,7 @@ https://templatemo.com/tm-569-edu-meeting
                               </ul>
                           </li>-->
                             <li><a href="about.php">About</a></li>
-                            <li class="scroll-to-section"><a href="#contact">Contact Us</a></li>
+                            <li ><a href="#contact">Contact Us</a></li>
                         </ul>
                         <a class='menu-trigger'>
                             <span>Menu</span>
@@ -376,7 +378,7 @@ https://templatemo.com/tm-569-edu-meeting
         </div>
     </section>
 
-    <section style="padding: bottom 0px;" class="our-courses" id="courses">
+    <section class="our-courses" id="courses">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
