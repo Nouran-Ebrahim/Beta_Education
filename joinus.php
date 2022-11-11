@@ -38,17 +38,17 @@
             <div class="form-col">
                 <div class="form-group w-100">
                     <label for="inputEmail4">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
                 </div>
                 <div class="form-col">
                     <div class="form-group ">
                         <label for="inputEmail4">Name</label>
-                        <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+                        <input type="text" class="form-control" id="inputEmail4" placeholder="Name" required> 
                     </div>
                 </div>
                 <div class="form-group">
                     <label for="inputPassword4">Student Code</label>
-                    <input type="password" class="form-control" id="inputPassword4" placeholder="Student Code">
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Student Code" required>
                 </div>
                 <br>
                 <div class="center">

@@ -1159,7 +1159,8 @@ section.our-courses {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 140px;
-  padding-bottom: 130px;
+  /* padding-bottom: 130px; */
+  padding-bottom: 0px !important;
 }
 
 .our-courses .item .down-content {

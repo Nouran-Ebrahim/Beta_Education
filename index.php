@@ -94,13 +94,12 @@ https://templatemo.com/tm-569-edu-meeting
                         <div class="caption">
                             <h6>Hello Students</h6>
                             <h2>Welcome to Education</h2>
-                            <p>This is an edu meeting HTML CSS template provided by <a rel="nofollow"
-                                    href="https://templatemo.com/page/1" target="_blank">TemplateMo website</a>. This is
-                                a Bootstrap v5.1.3 layout. The video background is taken from Pexels website, a group of
-                                young people by <a rel="nofollow" href="https://www.pexels.com/@pressmaster"
-                                    target="_blank">Pressmaster</a>.</p>
+                            <p><span style="font-weight: bold">STUDY MORE , EFFORT LESS</span>.... Contribute in a real
+                                and effective way to raising
+                                the level of student achievement by providing them with the best educational services
+                                and videos.</p>
                             <div class="main-button-red">
-                                <div class="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
+                                <div><a href="joinus.php">Join Us Now!</a></div>
                             </div>
                         </div>
                     </div>
@@ -207,109 +206,51 @@ https://templatemo.com/tm-569-edu-meeting
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="section-heading">
-                        <h2>Why Us</h2>
+                    <div style="padding-top:2%" class="section-heading">
+                        <h2>why us</h2>
                     </div>
                 </div>
-                <!-- <div class="col-lg-4">
-                    <div class="categories">
-                        <h4>Meeting Catgories</h4>
-                        <ul>
-                            <li><a href="#">Sed tempus enim leo</a></li>
-                            <li><a href="#">Aenean molestie quis</a></li>
-                            <li><a href="#">Cras et metus vestibulum</a></li>
-                            <li><a href="#">Nam et condimentum</a></li>
-                            <li><a href="#">Phasellus nec sapien</a></li>
+                <div class="col-lg-8 d-flex justify-items-center align-items-center">
+                    <div class="categories w-100">
+
+                        <ul style="list-style-type: circle;">
+                            <li>- Make periodic exams after the end of the class to measure the student's level after
+                                each lesson.</li>
+                            <li>- Facilitate communication between the teacher and parents, informing parents of the
+                                results of their children.</li>
+                            <li>- Easy access to scientific material.</li>
+                            <li>- Support the interaction between the teacher and the student.</li>
+                            <li>- Giving students the opportunity to retrieve what has been studied at any time.</li>
+                            <li>- Solving the problem of private lessons is to create new educational methods replacing
+                                traditional ones.</li>
                         </ul>
-                        <div class="main-button-red">
-                            <a href="meetings.html">All Upcoming Meetings</a>
-                        </div>
+
                     </div>
-                </div> -->
-                <!-- <div class="col-lg-8">
+                </div>
+                <div class="col-lg-4">
                     <div class="row">
-                        <div class="col-lg-6">
+                        <div>
                             <div class="meeting-item">
                                 <div class="thumb">
-                                    <div class="price">
-                                        <span>$22.00</span>
-                                    </div>
-                                    <a href="meeting-details.html"><img src="assets/images/meeting-01.jpg"
-                                            alt="New Lecturer Meeting"></a>
+
+                                    <img src="assets/images/meeting-01.jpg" alt="New Lecturer Meeting">
                                 </div>
-                                <div class="down-content">
-                                    <div class="date">
-                                        <h6>Nov <span>10</span></h6>
-                                    </div>
-                                    <a href="meeting-details.html">
-                                        <h4>New Lecturers Meeting</h4>
-                                    </a>
-                                    <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                                </div>
+
                             </div>
                         </div>
-                        <div class="col-lg-6">
+
+                        <div>
                             <div class="meeting-item">
                                 <div class="thumb">
-                                    <div class="price">
-                                        <span>$36.00</span>
-                                    </div>
-                                    <a href="meeting-details.html"><img src="assets/images/meeting-02.jpg"
-                                            alt="Online Teaching"></a>
+
+                                    <img src="assets/images/meeting-03.jpg" alt="Higher Education">
                                 </div>
-                                <div class="down-content">
-                                    <div class="date">
-                                        <h6>Nov <span>24</span></h6>
-                                    </div>
-                                    <a href="meeting-details.html">
-                                        <h4>Online Teaching Techniques</h4>
-                                    </a>
-                                    <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                                </div>
+
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="meeting-item">
-                                <div class="thumb">
-                                    <div class="price">
-                                        <span>$14.00</span>
-                                    </div>
-                                    <a href="meeting-details.html"><img src="assets/images/meeting-03.jpg"
-                                            alt="Higher Education"></a>
-                                </div>
-                                <div class="down-content">
-                                    <div class="date">
-                                        <h6>Nov <span>26</span></h6>
-                                    </div>
-                                    <a href="meeting-details.html">
-                                        <h4>Higher Education Conference</h4>
-                                    </a>
-                                    <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="meeting-item">
-                                <div class="thumb">
-                                    <div class="price">
-                                        <span>$48.00</span>
-                                    </div>
-                                    <a href="meeting-details.html"><img src="assets/images/meeting-04.jpg"
-                                            alt="Student Training"></a>
-                                </div>
-                                <div class="down-content">
-                                    <div class="date">
-                                        <h6>Nov <span>30</span></h6>
-                                    </div>
-                                    <a href="meeting-details.html">
-                                        <h4>Student Training Meetup</h4>
-                                    </a>
-                                    <p>Morbi in libero blandit lectus<br>cursus ullamcorper.</p>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </section>
@@ -319,7 +260,7 @@ https://templatemo.com/tm-569-edu-meeting
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading">
-                        <h2>Towards Continuity</h2>
+                        <h2>STUDY MORE, EFFORT LESS</h2>
                     </div>
                 </div>
                 <div class="col-lg-6 align-self-center">
@@ -435,7 +376,7 @@ https://templatemo.com/tm-569-edu-meeting
         </div>
     </section>
 
-    <section class="our-courses" id="courses">
+    <section style="padding: bottom 0px;" class="our-courses" id="courses">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -712,94 +653,61 @@ https://templatemo.com/tm-569-edu-meeting
         </div>
     </section>
 
-    <section class="our-facts">
+    <section class="our-courses">
         <div class="container">
             <div class="row">
-                <div>
-                    <div class="row">
-                        <div>
-                            <h2>Teachers</h2>
-                        </div>
-                        <div class="techer-container">
-                            <div id="carouselExampleDark"
-                                class="d-flex-col aling-text-center justify-content-center align-items-center w-75 carousel carousel-dark slide"
-                                data-bs-ride="carousel">
-
-                                <div class="carousel-inner d-flex-col justify-content-center align-items-center w-100 techer">
-                                    <div class="carousel-item active w-100" data-bs-interval="10000">
-                                        <div class="pic">
-                                            <img src="assets/images/customer-img.jpg" class="w-25" alt="...">
-                                        </div>
-                                        <div class="label">
-                                            <h5 >First slide label</h5>
-                                            <p>Some representative placeholder content for the first slide.</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item  w-100" data-bs-interval="10000">
-                                        <div class="pic">
-                                            <img src="assets/images/customer-img.jpg" class="w-25" alt="...">
-                                        </div>
-                                        <div class="label" >
-                                            <h5 >First slide label2</h5>
-                                            <p>Some representative placeholder content for the first slide.</p>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-item  w-100" data-bs-interval="10000">
-                                        <div class="pic">
-                                            <img src="assets/images/customer-img.jpg" class="w-25" alt="...">
-                                        </div>
-                                        <div class="label" >
-                                            <h5>First slide label3</h5>
-                                            <p>Some representative placeholder content for the first slide.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button"
-                                    data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button"
-                                    data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="visually-hidden">Next</span>
-                                </button>
-                            </div>
-                        </div>
-                        <!-- <div class="col-lg-6">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="count-area-content percentage">
-                                        <div class="count-digit">94</div>
-                                        <div class="count-title">Succesed Students</div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="count-area-content">
-                                        <div class="count-digit">126</div>
-                                        <div class="count-title">Current Teachers</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="count-area-content new-students">
-                                        <div class="count-digit">2345</div>
-                                        <div class="count-title">New Students</div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="count-area-content">
-                                        <div class="count-digit">32</div>
-                                        <div class="count-title">Awards</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2>teachers</h2>
                     </div>
                 </div>
+                <div class="techer-container col-lg-12">
+                    <div id="carouselExampleDark"
+                        class="d-flex-col aling-text-center justify-content-center align-items-center w-75 carousel carousel-dark slide"
+                        data-bs-ride="carousel">
+
+                        <div class="carousel-inner d-flex-col justify-content-center align-items-center w-100 techer">
+                            <div class="carousel-item active w-100" data-bs-interval="10000">
+                                <div class="pic">
+                                    <img src="assets/images/customer-img.jpg" class="w-25" alt="...">
+                                </div>
+                                <div class="label">
+                                    <h5>First slide label</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item  w-100" data-bs-interval="10000">
+                                <div class="pic">
+                                    <img src="assets/images/customer-img.jpg" class="w-25" alt="...">
+                                </div>
+                                <div class="label">
+                                    <h5>First slide label2</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item  w-100" data-bs-interval="10000">
+                                <div class="pic">
+                                    <img src="assets/images/customer-img.jpg" class="w-25" alt="...">
+                                </div>
+                                <div class="label">
+                                    <h5>First slide label3</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
