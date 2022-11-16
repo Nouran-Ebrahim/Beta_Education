@@ -112,14 +112,12 @@ https://templatemo.com/tm-569-edu-meeting
     <section class="services" id="levels">
         <div class="container">
             <ul class="nav nav-tabs">
-
                 <li class="nav-item">
                     <a  id="prep" class="nav-link">Preparatory Stage</a>
                 </li>
                 <li class="nav-item">
                     <a  id="thanwy" class="nav-link">Secondary Stage</a>
                 </li>
-
             </ul>
         </div>
         <div class="row">
@@ -852,8 +850,6 @@ https://templatemo.com/tm-569-edu-meeting
 
 
     </script>
-</body>
-
 </body>
 
 </html>
