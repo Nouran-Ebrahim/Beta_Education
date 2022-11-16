@@ -34,6 +34,13 @@ font & reset css
 reset
 --------------------------------------------- 
 */
+#cource{
+  background-image: url(../images/meetings-bg.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -305,7 +312,13 @@ header
 /* .background-header .main-nav .logo {
   line-height: 75px;
 } */
-
+.logo-img img{
+  width: 45%;
+    /* padding: 1%; */
+    /* background-color: yellow; */
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
 .background-header .nav {
   margin-top: 20px !important;
 }
@@ -549,7 +562,7 @@ header
 }
 
 .header-area.header-sticky {
-  min-height: 80px;
+  min-height: 92px;
 }
 
 .header-area .nav {
@@ -727,6 +740,12 @@ banner
 }
 #thawy-content{
   display: none;
+}
+#thanwy{
+  color: white;
+}
+#prep{
+  color: #f5a425;
 }
 .main-banner {
   position: relative;

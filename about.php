@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-<img src="assets/images/logo.png"> 
+<img src="assets/images/logo2.jpg">
 </body>
 </html>

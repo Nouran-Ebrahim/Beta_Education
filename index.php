@@ -51,9 +51,8 @@ https://templatemo.com/tm-569-edu-meeting
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
 
-                        <a href="index.php" class="logo">
-                        <!-- <img src="assets/images/logo.png">  -->
-                          Beta<br> Education
+                        <a href="index.php" class="logo logo-img">
+                        <img src="assets/images/logoo2.png">                          
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -115,10 +114,10 @@ https://templatemo.com/tm-569-edu-meeting
             <ul class="nav nav-tabs">
 
                 <li class="nav-item">
-                    <a style="color:white" id="prep" class="nav-link">Preparatory Stage</a>
+                    <a  id="prep" class="nav-link">Preparatory Stage</a>
                 </li>
-                <li class="nav-item" id="active-thanwy">
-                    <a style="color:white" id="thanwy" class="nav-link">Secondary Stage</a>
+                <li class="nav-item">
+                    <a  id="thanwy" class="nav-link">Secondary Stage</a>
                 </li>
 
             </ul>
@@ -135,7 +134,7 @@ https://templatemo.com/tm-569-edu-meeting
                                 of the
                                 card's
                                 content.</p>
-                            <a href="courses.html" class="card-link"><button type="button"
+                            <a href="courses.php" class="card-link"><button type="button"
                                     class="btn btn-outline-primary view">View</button></a>
                         </div>
                     </div>
@@ -147,7 +146,7 @@ https://templatemo.com/tm-569-edu-meeting
                                 of the
                                 card's
                                 content.</p>
-                            <a href="courses.html" class="card-link"><button type="button"
+                            <a href="courses.php" class="card-link"><button type="button"
                                     class="btn btn-outline-primary view">View</button></a>
                         </div>
                     </div>
@@ -158,7 +157,7 @@ https://templatemo.com/tm-569-edu-meeting
                                 of the
                                 card's
                                 content.</p>
-                            <a href="courses.html" class="card-link"><button type="button"
+                            <a href="courses.php" class="card-link"><button type="button"
                                     class="btn btn-outline-primary view">View</button></a>
                         </div>
                     </div>
@@ -173,7 +172,7 @@ https://templatemo.com/tm-569-edu-meeting
                                 of the
                                 card's
                                 content.</p>
-                            <a href="courses.html" class="card-link"><button type="button"
+                            <a href="courses.php" class="card-link"><button type="button"
                                     class="btn btn-outline-primary view">View</button></a>
                         </div>
                     </div>
@@ -185,7 +184,7 @@ https://templatemo.com/tm-569-edu-meeting
                                 of the
                                 card's
                                 content.</p>
-                            <a href="courses.html" class="card-link"><button type="button"
+                            <a href="courses.php" class="card-link"><button type="button"
                                     class="btn btn-outline-primary view">View</button></a>
                         </div>
                     </div>
@@ -196,7 +195,7 @@ https://templatemo.com/tm-569-edu-meeting
                                 of the
                                 card's
                                 content.</p>
-                            <a href="courses.html" class="card-link"><button type="button"
+                            <a href="courses.php" class="card-link"><button type="button"
                                     class="btn btn-outline-primary view">View</button></a>
                         </div>
                     </div>
@@ -802,8 +801,8 @@ https://templatemo.com/tm-569-edu-meeting
     <script src="assets/js/tabs.js"></script>
     <script src="assets/js/video.js"></script>
     <script src="assets/js/slick-slider.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script src="assets/js/levels.js"></script>
+    <script src="assets/js/customs.js"></script>
+    <!-- <script src="assets/js/levels.js"></script> -->
     <script>
     //according to loftblog tut
     $('.nav li:first').addClass('active');
@@ -850,6 +849,8 @@ https://templatemo.com/tm-569-edu-meeting
     $(window).scroll(function() {
         checkSection();
     });
+
+
     </script>
 </body>
 
