@@ -490,4 +490,15 @@ h1{
     color: #f5a425;
   }
   
-  
+ #english{
+  display: none;
+ }
+ .nav li a{
+  text-decoration: none;
+ }
+ #prep{
+  color: #f5a425;
+ }
+ #thanwy{
+color: white;
+ }

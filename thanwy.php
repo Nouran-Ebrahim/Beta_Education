@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="TemplateMo">
-    <title>Cources</title>
+    <title>thanwy Cources</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -74,14 +74,14 @@
     <div class="container-fluid py-5" >
         <div class="container py-5">
             <div class="text-center mb-5">
-                <h1 class="text" id="title">أولى إعدادى عربي</h1>
+                <h1 class="text" id="title">أولى ثانوي عربي</h1>
             </div>
 
             <div class="container">
                 <ul class="nav nav-tabs">
 
                     <li class="nav-item">
-                        <a id="prep" class="nav-link">عربى</a>
+                        <a id="prep" class="nav-link"> عربى</a>
                     </li>
                     <li class="nav-item">
                         <a id="thanwy" class="nav-link">لغات</a>
@@ -321,8 +321,8 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/courses.js"></script>
-    <script src="assets/js/shared.js"></script>
+    <script src="assets/js/thanwy.js"></script>
+
 
 
 </body>
