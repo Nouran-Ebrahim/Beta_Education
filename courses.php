@@ -1,3 +1,6 @@
+<!-- <?php
+include "swip.php";
+?> -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -53,7 +56,7 @@
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
                         <ul class="nav">
-                            <li><a href="index.php" >Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li><a href="index.php" class="active" id="level">Levels</a></li>
                             <li><a href="index.php" id="skill">Skills</a></li>
                             <li><a href="joinus.php">Join Us</a></li>
@@ -71,10 +74,12 @@
     </header>
     <!-- ***** Header Area End ***** -->
     <!-- Courses Start -->
-    <div class="container-fluid py-5" >
+    <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="text-center mb-5">
-                <h1 class="text" id="title">أولى إعدادى عربي</h1>
+                <h1 class="text" id="title">أولى إعدادى عربي
+
+                </h1>
             </div>
 
             <div class="container">
@@ -200,7 +205,7 @@
                 </div>
             </div>
             <!-- قسم اللغاااات -->
-    <!-- Courses Start -->
+            <!-- Courses Start -->
             <div class="row" id="english">
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="rounded overflow-hidden mb-2 bg">
@@ -322,7 +327,7 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/courses.js"></script>
-    <script src="assets/js/shared.js"></script>
+    <script src="assets/js/sharedd.js"></script>
 
 
 </body>

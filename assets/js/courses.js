@@ -42,7 +42,7 @@ document.getElementById('thanwy').addEventListener('click',()=>{
 	document.getElementById('english').style.display="block";
     document.getElementById('english').style.cssText='display: flex; flex-direction: row; '
 	document.getElementById('arabic').style.display="none";
-    document.getElementById('title').innerHTML="1st Preparatory";
+    //document.getElementById('title').innerHTML="1st Preparatory";
 
 document.getElementById('thanwy').style.cssText="color:#f5a425"
 document.getElementById('prep').style.cssText="color:white"
@@ -62,3 +62,12 @@ document.getElementById('prep').addEventListener('click',()=>{
 console.log("clicked-prep")
 })
 console.log("no")
+// var url =document.getElementsByClassName('card-link')
+// for(var i=0;i<url.length;i++){
+//     console.log(url[i].href)
+//     var urlid=url[i].href
+//     let params = new URLSearchParams(urlid.search);
+//     let id = params.get('id');
+//     console.log(id)
+// } 
+console.log(window.location.href) 

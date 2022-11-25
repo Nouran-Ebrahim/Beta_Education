@@ -132,7 +132,7 @@ https://templatemo.com/tm-569-edu-meeting
                                 of the
                                 card's
                                 content.</p>
-                            <a href="courses.php"  class="card-link"><button type="button"
+                            <a href="courses.php?id=1"  class="card-link"><button type="button"
                                     class="btn btn-outline-primary view" id="prep-1">View</button></a>
                         </div>
                     </div>
@@ -144,7 +144,7 @@ https://templatemo.com/tm-569-edu-meeting
                                 of the
                                 card's
                                 content.</p>
-                            <a href="courses.php"  class="card-link"><button type="button"
+                            <a href="courses.php?id=2"  class="card-link"><button type="button"
                                     class="btn btn-outline-primary view" id="prep-2" >View</button></a>
                         </div>
                     </div>
@@ -155,7 +155,7 @@ https://templatemo.com/tm-569-edu-meeting
                                 of the
                                 card's
                                 content.</p>
-                            <a href="courses.php" class="card-link"><button type="button"
+                            <a href="courses.php?id=3" class="card-link"><button type="button"
                                     class="btn btn-outline-primary view" id="prep-3">View</button></a>
                         </div>
                     </div>
@@ -800,7 +800,7 @@ https://templatemo.com/tm-569-edu-meeting
     <script src="assets/js/video.js"></script>
     <script src="assets/js/slick-slider.js"></script>
     <script src="assets/js/customs.js"></script>
-    <script src="assets/js/shared.js"></script>
+    <script src="assets/js/sharedd.js"></script>
 
     <!-- <script src="assets/js/levels.js"></script> -->
     <script>
